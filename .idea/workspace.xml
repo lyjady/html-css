@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/li.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/li.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +33,41 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1TTYcJb9Kap9U410KKSnT1LY4pd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\css" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,17 +82,34 @@
       <workItem from="1573485632840" duration="175000" />
       <workItem from="1573486469661" duration="3000" />
       <workItem from="1573729803802" duration="14000" />
-      <workItem from="1582896958542" duration="508000" />
+      <workItem from="1582896958542" duration="727000" />
+      <workItem from="1582909009623" duration="303000" />
+      <workItem from="1583325425250" duration="3362000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582897460046" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1583328665857">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583328665857" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1582897511687">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1582897511687" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583325725756">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1583325725756" />
   </component>
 </project>

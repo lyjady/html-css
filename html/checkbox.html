@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            const hobby = document.getElementsByName('hobby');
+            const all = $('#all');
+            const opposite = $('#opposite');
+            all.click(function () {
+                for (let i = 0; i < hobby.length; i++) {
+                    hobby[i].checked = true;
+                }
+            });
+            opposite.click(function () {
+                for (let i = 0; i < hobby.length; i++) {
+                    hobby[i].checked = !hobby[i].checked;
+                }
+            })
+        })
+    </script>
+    <style>
+        .checkbox-container {
+            text-align: center;
+            padding-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkbox-container">
+        <button id="all" class="btn btn-primary">全选</button>
+        <button id="opposite" class="btn btn-primary">反选</button>
+        <br/>
+        <label style="margin-top: 20px; margin-right: 10px">
+            <input type="checkbox" name="hobby"> 奥妮克希亚
+        </label>
+        <label style="margin-right: 10px">
+            <input type="checkbox" name="hobby"> 吉安娜
+        </label>
+        <label style="margin-right: 10px">
+            <input type="checkbox" name="hobby"> 泰兰德
+        </label>
+        <label style="margin-right: 10px">
+            <input type="checkbox" name="hobby"> 希尔瓦娜斯
+        </label>
+        <label style="margin-right: 10px">
+            <input type="checkbox" name="hobby"> 怀特迈恩
+        </label>
+    </div>
+</body>
+</html>

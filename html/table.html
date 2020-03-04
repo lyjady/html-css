@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $(function () {
+            alert($('#sp').text());
+        })
+    </script>
+</head>
+<body>
+    <table style="width: 500px; height: 300px" border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <th>序号</th>
+            <th>姓名</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sam</td>
+            <td rowspan="2">16</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">Rose</td>
+        </tr>
+    </table>
+    <span id="sp">text</span>
+</body>
+</html>
