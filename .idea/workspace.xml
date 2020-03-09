@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/font.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/li.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/li.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +43,7 @@
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,8 +68,18 @@
       <workItem from="1573729803802" duration="14000" />
       <workItem from="1582896958542" duration="727000" />
       <workItem from="1582909009623" duration="303000" />
-      <workItem from="1583325425250" duration="3362000" />
+      <workItem from="1583325425250" duration="3883000" />
+      <workItem from="1583507760150" duration="62000" />
+      <workItem from="1583757699800" duration="1044000" />
     </task>
+    <task id="LOCAL-00001" summary="js小案列">
+      <created>1583329037493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583329037493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,20 +87,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="js小案列" />
+    <option name="LAST_COMMIT_MESSAGE" value="js小案列" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1583329036987">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1583329036987" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582897460046" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1583328665857">
+    <state x="781" y="342" key="SettingsEditor" timestamp="1583758743817">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583328665857" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1582897511687">
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583758743817" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1583329197627">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1582897511687" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583329197627" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583325725756">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
