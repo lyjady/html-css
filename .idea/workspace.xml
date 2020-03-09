@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/font.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/font.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/font.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1582909009623" duration="303000" />
       <workItem from="1583325425250" duration="3883000" />
       <workItem from="1583507760150" duration="62000" />
-      <workItem from="1583757699800" duration="1044000" />
+      <workItem from="1583757699800" duration="2262000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583329037493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="小测试">
+      <created>1583758781337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583758781337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,13 +95,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="js小案列" />
-    <option name="LAST_COMMIT_MESSAGE" value="js小案列" />
+    <MESSAGE value="小测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="小测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1583329036987">
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1583758780995">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1583329036987" />
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1583758780995" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -103,10 +111,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583758743817" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1583329197627">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1583758782739">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583329197627" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583758782739" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583325725756">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
