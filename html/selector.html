@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style>
+         /*后代选择器 元素1 元素2 */
+        .f1 li {
+            color: pink;
+        }
+
+        /* 子类选择器: 选择当前元素最近一级的符合条件的一级子元素 */
+        .f21 > p {
+            color: pink;
+        }
+
+        /* 并集选择器: 将所有满足条件的元素添加相应的样式 */
+        .f31, .f32 {
+            color: #0077aa;
+        }
+        /*  复合选择器可以不单单使用类选择器、标签选择器、id选择器来记性组合。也可以将符合选择器在进行复合。  */
+        /*  比如 .f1 > .f12, li p, #id  */
+    </style>
+</head>
+<body>
+    <ol class="f1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <div class="f21">
+        <p>1</p>
+        <p>2</p>
+        <div>
+            <p>3</p>
+        </div>
+    </div>
+
+    <div class="f31">
+        <p>1</p>
+        <p>2</p>
+        <div>
+            <p>3</p>
+        </div>
+    </div>
+    <div class="f32">
+        <p>1</p>
+        <p>2</p>
+        <div>
+            <p>3</p>
+        </div>
+    </div>
+</body>
+</html>
