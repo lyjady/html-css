@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/Background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/MiAside.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background/logo.png" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="背景样式">
+      <change afterPath="$PROJECT_DIR$/html/XinLangNav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +75,9 @@
       <workItem from="1583507760150" duration="62000" />
       <workItem from="1583757699800" duration="2273000" />
       <workItem from="1584018276330" duration="2206000" />
-      <workItem from="1584448582425" duration="3916000" />
+      <workItem from="1584448582425" duration="4365000" />
+      <workItem from="1584708041816" duration="48000" />
+      <workItem from="1584708132264" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -116,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584020431403</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="背景样式">
+      <created>1584453031435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584453031435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,25 +125,30 @@
     <MESSAGE value="js小案列" />
     <MESSAGE value="小测试" />
     <MESSAGE value="更新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+    <MESSAGE value="背景样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="背景样式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1584020431068">
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584708075980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1584020431068" />
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584708075980" />
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1584453205176">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1584453205176" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582897460046" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1584449516651">
+    <state x="781" y="342" key="SettingsEditor" timestamp="1584453124027">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584449516651" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1584020432677">
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584453124027" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1584453225114">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1584020432677" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1584453225114" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583325725756">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
