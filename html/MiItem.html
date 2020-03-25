@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MiItem</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #EEEEEE;
+        }
+
+        .item {
+            background-color: #FFFFFF;
+            width: 298px;
+            height: 415px;
+            margin: 200px 10px 50px 0;
+        }
+
+        .item:hover {
+            /*
+                box-shadow: h-shadow v-shadow blur spread color inset
+                h-shadow: 必须, 水平阴影的位置。允许负值。
+                v-shadow: 必须, 垂直阴影的位置。允许负值。
+                blur: 可选, 模糊距离.
+                spread: 可选, 阴影尺寸.
+                color: 可选阴影的颜色, 常用模糊效果作为颜色。
+            */
+            box-shadow: 8px 10px 20px 5px rgba(0, 0, 0, .4);
+        }
+
+        .item > img {
+            width: 100%;
+        }
+
+        .item > p {
+            font-size: 14px;
+            height: 70px;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+
+        .item > .info {
+            font-size: 12px;
+            color: #CCCCCC;
+            padding: 0 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .item > .item-bottom > h3, span {
+            font-size: 14px;
+            font-weight: 400;
+            display: inline-block;
+        }
+
+        .item-bottom {
+            padding: 0 20px;
+        }
+
+        .item > .item-bottom > .product {
+            margin-right: 15px;
+        }
+
+        .item > .item-bottom > .price {
+            margin-left: 6px;
+            color: #FF6700;
+        }
+
+        .first-item {
+            margin-left: 100px;
+        }
+
+        #app {
+            display: flex;
+        }
+
+        .show-table {
+            width: 248px;
+            height: 163px;
+            margin-left: 100px;
+            border: 1px solid #CCCCCC;
+            background-color: #FFFFFF;
+        }
+
+        .table-tile {
+            border-bottom: 1px dotted #CCCCCC;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 5px 0 5px 10px;
+        }
+
+        li {
+            list-style: none;
+            height: 23px;
+            line-height: 23px;
+            font-size: 14px;
+            color: #Aaaaaa;
+            margin-bottom: 1px;
+        }
+
+        li:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .show-table > ul {
+            padding: 7px 0 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div :class="{'first-item': index === 0}" class="item" v-for="(pro, index) in product" :key="pro.id">
+            <img :src="pro.src" alt="....">
+            <p class="content">{{ pro.content }}</p>
+            <span class="info">来自与{{ pro.num }}的评价</span>
+            <div class="item-bottom">
+                <h3 class="product">{{ pro.productName }}</h3>
+                <span style="color: #EBE4E0">|</span>
+                <span class="price">{{ pro.price }}元</span>
+            </div>
+        </div>
+    </div>
+    <div class="show-table">
+        <h3 class="table-tile">品优购快报</h3>
+        <ul>
+            <li v-for="(preferenceInfo, index) in preferenceList" :key="index">
+                {{ preferenceInfo }}
+            </li>
+        </ul>
+    </div>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                product: [
+                    {id: 1, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'},
+                    {id: 2, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'},
+                    {id: 3, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'},
+                    {id: 4, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'},
+                    {id: 5, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'},
+                    {id: 6, productName: 'RedMi AirDots真无线蓝...', content: '快递牛, 整体不错的蓝牙耳机可以说秒连, 红米给力!!!', num: '1241213', price: 99.9, src: '../image/MiItem.jpg'}
+                ]
+            }
+        });
+        const app2 = new Vue({
+            el: '.show-table',
+            data: {
+                preferenceList: ['[特惠] 爆款耳机5折秒', '[特惠] 母亲节, 健康好礼低至5折', '[特惠] 9.9玛莎拉蒂领回家', '[特惠] 宝马空调立省30000', '[特惠] 爆款耳机5折秒']
+            }
+        })
+    </script>
+</body>
+</html>
