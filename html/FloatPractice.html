@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FloatPractice</title>
+    <style>
+        .first-container {
+            width: 1200px;
+            height: 460px;
+            background-color: #63a35c;
+            margin: 100px auto;
+        }
+
+        .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: #FF6700;
+        }
+
+        .right {
+            float: left;
+            width: 970px;
+            height: 460px;
+            background-color: #9a6e3a;
+        }
+
+        .second-container {
+            padding: 0;
+            width: 1226px;
+            height: 285px;
+            background-color: #795da3;
+            margin: 100px auto;
+        }
+
+        .second-container > li {
+            height: 285px;
+            width: 296px;
+            background-color: #9a6e3a;
+            list-style: none;
+            float: left;
+            margin-right: 14px;
+        }
+
+        ul .last-li {
+            margin-right: 0;
+        }
+
+        .third-container {
+            width: 1226px;
+            height: 615px;
+            background-color: #795da3;
+            margin: 100px auto;
+        }
+
+        .third-left {
+            height: 615px;
+            width: 234px;
+            background-color: #666666;
+            float: left;
+        }
+
+        .third-right {
+            float: left;
+            width: 992px;
+            height: 615px;
+            background-color: skyblue;
+        }
+
+        .third-right > li {
+            width: 234px;
+            height: 300px;
+            background-color: violet;
+            float: left;
+            margin-left: 14px;
+            margin-bottom: 14px;
+        }
+
+        .fourth-container > .top {
+            height: 100px;
+            background-color: coral;
+        }
+
+        .fourth-container > .banner {
+            width: 1982px;
+            height: 300px;
+            background-color: brown;
+            margin: 10px auto;
+        }
+
+        .fourth-container > .item-container {
+            width: 1982px;
+            height: 600px;
+            background-color: aqua;
+            margin: 0 auto;
+        }
+
+        .item-list > li {
+            width: 485px;
+            height: 600px;
+            background-color: #ff7512;
+            float: left;
+            margin-right: 14px;
+        }
+
+        .item-list > .last-item-list {
+            margin-right: 0;
+        }
+
+        .fourth-container > .footer {
+            margin-top: 10px;
+            height: 300px;
+            background-color: deeppink;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <div class="first-container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <ul class="second-container">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="last-li"></li>
+    </ul>
+
+    <div class="third-container">
+        <div class="third-left"></div>
+        <ul class="third-right">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="fourth-container">
+        <div class="top"></div>
+        <div class="banner"></div>
+        <div class="item-container">
+            <ul class="item-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="last-item-list"></li>
+            </ul>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

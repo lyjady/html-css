@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <style>
+        .box {
+            background-color: red;
+        }
+
+        /*
+            浮动元素具有行内块元素的特点, 会脱离文档流, 影响后面的文档流元素, 浮动元素一般搭配文档流的父盒子进行布局
+            一般来说不指定父盒子的高度, 但是不指定父盒子的高度会导致高度塌陷问题.父盒子的高度为0.此时为了解决高度塌陷问题, 就就要清除浮动元素造成的影响
+            1.overflow: hidden; 给父元素加上这个样式让父元素自动适应浮动子元素的高度
+            2.clear: both; 在浮动元素后面添加新的块元素, 加上这个样式
+            3.:after; 使用伪类清除浮动, 将clearfix这个class对应的样式加给父元素(推荐, 各大牛逼的公司都有用)
+         */
+        .box1 {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: #63a35c;
+        }
+
+        .box2 {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: #CCCCCC;
+        }
+
+        .last-box {
+            clear: both;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clearfix {
+            /* 兼容IE6, IE7 */
+            *zoom: 1
+        }
+    </style>
+</head>
+<body>
+    <div class="box clearfix">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
