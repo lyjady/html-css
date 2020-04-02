@@ -23,3 +23,7 @@ ul {
     /* 兼容IE6, IE7 */
     *zoom: 1
 }
+
+a {
+    text-decoration: none;
+}
