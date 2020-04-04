@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="浮动">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/online.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/online.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Online.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Online.html" afterDir="false" />
-    </list>
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +106,7 @@
       <workItem from="1585831134825" duration="4688000" />
       <workItem from="1585921987001" duration="26000" />
       <workItem from="1585928228320" duration="2357000" />
-      <workItem from="1586014558318" duration="2674000" />
+      <workItem from="1586014558318" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -182,13 +178,22 @@
       <option name="project" value="LOCAL" />
       <updated>1585930507291</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="浮动">
+      <created>1586017239648</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586017239648</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="js小案列" />
     <MESSAGE value="小测试" />
@@ -196,20 +201,20 @@
     <MESSAGE value="背景样式" />
     <MESSAGE value="新浪导航栏" />
     <MESSAGE value="box模型小案例" />
-    <MESSAGE value="浮动" />
     <MESSAGE value="学成在线案列" />
     <MESSAGE value="案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="案例" />
+    <MESSAGE value="浮动" />
+    <option name="LAST_COMMIT_MESSAGE" value="浮动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584708075980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584708075980" />
-    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1585930506901">
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1586017239237">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585930506901" />
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586017239237" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -234,10 +239,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1585571250513" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1585930509319">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586017242883">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585930509319" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586017242883" />
     <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
