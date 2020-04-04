@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="背景样式">
-      <change afterPath="$PROJECT_DIR$/html/XinLangNav.html" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="浮动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/online.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/online.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Online.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Online.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
       <list>
         <option value="Wechat mini program component js file" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,9 +44,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/online" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,9 +56,31 @@
       <recent name="C:\Users\User\WebstormProjects\html-css\html" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\image\online" />
       <recent name="C:\Users\User\WebstormProjects\html-css\image" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\js" />
       <recent name="C:\Users\User\WebstormProjects\html-css\css" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,7 +103,14 @@
       <workItem from="1584018276330" duration="2206000" />
       <workItem from="1584448582425" duration="4365000" />
       <workItem from="1584708041816" duration="48000" />
-      <workItem from="1584708132264" duration="854000" />
+      <workItem from="1584708132264" duration="975000" />
+      <workItem from="1585138690817" duration="6189000" />
+      <workItem from="1585571226475" duration="176000" />
+      <workItem from="1585571549081" duration="3995000" />
+      <workItem from="1585831134825" duration="4688000" />
+      <workItem from="1585921987001" duration="26000" />
+      <workItem from="1585928228320" duration="2357000" />
+      <workItem from="1586014558318" duration="2674000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -114,7 +147,42 @@
       <option name="project" value="LOCAL" />
       <updated>1584453031435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新浪导航栏">
+      <created>1584709069130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584709069130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="box模型小案例">
+      <created>1585144865341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585144865341</updated>
+    </task>
+    <task id="LOCAL-00008" summary="浮动">
+      <created>1585575509703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585575509703</updated>
+    </task>
+    <task id="LOCAL-00009" summary="学成在线案列">
+      <created>1585835808532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585835808532</updated>
+    </task>
+    <task id="LOCAL-00010" summary="案例">
+      <created>1585930507291</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585930507291</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,32 +194,57 @@
     <MESSAGE value="小测试" />
     <MESSAGE value="更新代码" />
     <MESSAGE value="背景样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="背景样式" />
+    <MESSAGE value="新浪导航栏" />
+    <MESSAGE value="box模型小案例" />
+    <MESSAGE value="浮动" />
+    <MESSAGE value="学成在线案列" />
+    <MESSAGE value="案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="案例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584708075980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584708075980" />
-    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1584453205176">
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1585930506901">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1584453205176" />
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585930506901" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582897460046" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1584453124027">
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom" timestamp="1585139601349">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584453124027" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1584453225114">
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585139601349" />
+    <state width="2517" height="380" key="GridCell.Tab.0.center" timestamp="1585139601349">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1584453225114" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583325725756">
+    <state width="2517" height="380" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585139601349" />
+    <state width="2517" height="380" key="GridCell.Tab.0.left" timestamp="1585139601349">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1583325725756" />
+    <state width="2517" height="380" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585139601349" />
+    <state width="2517" height="380" key="GridCell.Tab.0.right" timestamp="1585139601349">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="380" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585139601349" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1585571250513">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1585571250513" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1585930509319">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585930509319" />
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585929562184" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1585831578223">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1585831578223" />
   </component>
 </project>
