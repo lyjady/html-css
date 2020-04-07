@@ -178,7 +178,7 @@ body {
 .recommend {
     height: 60px;
     margin-bottom: 32px;
-    border-bottom: 1px solid #DCDEE0;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
     background-color: #FFFFFF;
 }
 
@@ -206,10 +206,9 @@ body {
 
 .recommend li {
     float: left;
-    height: 60px;
     padding: 0 34px;
-    /*border-left: 1px solid #BFBFBF;*/
-    line-height: 60px;
+    margin-top: 20px;
+    border-left: 1px solid #BFBFBF;
     font-size: 16px;
     color: black;
 }
@@ -276,4 +275,58 @@ body {
     font-weight: 700;
     margin: 0 4px;
     color: #999999;
+}
+
+.footer {
+    margin-top: 25px;
+    padding-top: 33px;
+    width: 100%;
+    height: 417px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer .logo > p {
+    margin: 25px 0 15px 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .logo > a {
+    display: block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00A4FF;
+    font-size: 16px;
+    color: #00A4FF;
+    text-align: center;
+    line-height: 34px;
+}
+
+.links {
+    float: right;
+    margin-right: 32px;
+}
+
+.links dl {
+    float: left;
+    margin-left: 124px;
+}
+
+.links dt {
+    margin-bottom: 15px;
+}
+
+.links dt a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.links dd a {
+    font-size: 12px;
+    color: #333333;
 }
