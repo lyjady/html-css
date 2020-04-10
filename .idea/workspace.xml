@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/Position.html" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="学成在线完成, 定位">
+      <change afterPath="$PROJECT_DIR$/image/online/hot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/online.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/online.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/Online.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Online.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Position.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +66,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/image/online" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\html-css\image\online" />
       <recent name="C:\Users\User\WebstormProjects\html-css\image" />
       <recent name="C:\Users\User\WebstormProjects\html-css\js" />
       <recent name="C:\Users\User\WebstormProjects\html-css\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\html" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +129,8 @@
       <workItem from="1586014558318" duration="2693000" />
       <workItem from="1586163861685" duration="2849000" />
       <workItem from="1586262524671" duration="56000" />
-      <workItem from="1586262813985" duration="3070000" />
+      <workItem from="1586262813985" duration="3386000" />
+      <workItem from="1586523892464" duration="2562000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -203,11 +223,30 @@
       <option name="project" value="LOCAL" />
       <updated>1586166700758</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="学成在线完成, 定位">
+      <created>1586266171128</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586266171128</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -223,7 +262,8 @@
     <MESSAGE value="案例" />
     <MESSAGE value="浮动" />
     <MESSAGE value="学成在线" />
-    <option name="LAST_COMMIT_MESSAGE" value="学成在线" />
+    <MESSAGE value="学成在线完成, 定位" />
+    <option name="LAST_COMMIT_MESSAGE" value="学成在线完成, 定位" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586265293121">
@@ -234,10 +274,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586262548805" />
-    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1586166700398">
+    <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1586266159818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586166700398" />
+    <state x="878" y="204" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1586266159818" />
     <state x="1141" y="590" width="277" height="285" key="Github.ShareDialog" timestamp="1582897460046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -258,14 +298,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="380" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585139601349" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1586262953695">
+    <state x="781" y="342" key="SettingsEditor" timestamp="1586524999339">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586262953695" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586166701644">
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586524999339" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586266172638">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586166701644" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586266172638" />
     <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

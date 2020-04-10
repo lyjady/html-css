@@ -244,10 +244,17 @@ body {
 
 .course-list-content > ul > li {
     float: left;
+    position: relative;
     margin: 0 15px 15px 0;
     height: 270px;
     width: 228px;
     background-color: #FFFFFF;
+}
+
+.course-list-content > ul > li > .hot {
+    position: absolute;
+    top: -5px;
+    right: -4px;
 }
 
 .course-list-content > ul > li > a > img {

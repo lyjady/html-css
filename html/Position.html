@@ -9,22 +9,25 @@
             浮动是让块元素在一排显示, 并且之间没有缝隙. 定位则是让盒子自由的某个盒子内移动位置或者固定到屏幕的某个位置, 并且可以压住其他的盒子
             定位就是将盒子定在某个位置, 所以定位也是摆放盒子, 按照定位的方式移动盒子
             定位 = 定位模式 + 边偏移(定位模式决定定位方式, 边偏移是决定改元素的最终位置)
+            z-index: 层级只有开启定位的盒子这个样式才有效果(没有声明是auto, 最后定义的元素就显示在越上面)
             定位模式:
                 1.静态定位(static): 默认定位方式, 无定位, 不脱离文档流
                 2.相对定位(relative): 元素在移动位置的时候是相对自己的之前的位置开始移动的,
                                     移动之后空出来的位置下面的元素的不会顶上来(原来在标准流中的位置继续占有, 后面的盒子仍以标准流的方式对待他, 不脱标), 最典型的应用场景就是为父元素开始相对定位给子元素开启绝对定位.
-                3.绝对定位(absolute):
-                4.固定定位(fix):
+                3.绝对定位(absolute): 移动位置是相对于开启定位的父元素来确定的, 如果没有父元素开启定位那么直接相对于浏览器进行定位, 开启了绝对定位的元素会脱离文档流下面的元素会填补它的位置, 相对定位居中的写法: top: 50% + margin-left: -50%的要居中盒子的宽度
+                                     一般情况下会为父元素开启相对定位子元素开启绝对定位, 因为父亲开启相对定位不会脱离文档流不会影响整个页面的布局, 并且父盒子开启了定位子盒子开启绝对定位时会以父盒子的位置最为定位移动的初始点, 可以在父盒子内自由的移动.
+                4.固定定位(fix): 将元素固定到页面的可视区的某个位置不随滚轮的滚动而移动, 与绝对定位十分相像也会脱离文档流. 如果要让元素固定定位定位到版心的右侧那么就left: 50% + margin-left: 50%版心的宽度
+                5.粘性定位(sticky): 当满足定位条件时开启粘性定位的元素就不会随着滚轮的滚动而移动, 以浏览器的可是窗口为参照点移动, 占有原来的位置, 必须添加top, left, right, bottom其中一个才会有效.
             边偏移:
                 1.top: 顶端偏移, 定义元素相对其父元素的上边线的距离
                 2.bottom: 下端偏移, 定义元素相对其父元素的下边线的距离
                 3.left: 左端偏移, 定义元素相对其父元素的左边线的距离
                 4.right: 右端偏移, 定义元素相对其父元素的右边线的距离
          */
+        body {
+            height: 10000px;
+        }
         .a1 {
-            position: relative;
-            left: 200px;
-            top: 200px;
             width: 100px;
             height: 100px;
             background-color: skyblue;
@@ -32,12 +35,47 @@
         .a2 {
             width: 100px;
             height: 100px;
-            background-color: deepskyblue;
+            background-color: #952c2c;
+        }
+
+        .a1 {
+            /*position: relative;*/
+            /*left: 200px;*/
+            /*top: 200px;*/
+            position: absolute;
+            bottom: 100px;
+        }
+
+        .a2 {
+            position: relative;
+        }
+
+        .father {
+            width: 600px;
+            height: 600px;
+            background-color: #55a532;
+            position: relative;
+        }
+
+        .a3 {
+            width: 100px;
+            height: 100px;
+            background-color: #1C036C;
+            position: fixed;
+            top: 30px;
+            right: 50px;
+        }
+
+        .root div {
+            width: 100%;
         }
     </style>
 </head>
-<body>
-    <div class="a1"></div>
+<body class="root">
+    <div class="father">
+        <div class="a1"></div>
+    </div>
     <div class="a2"></div>
+    <div class="a3"></div>
 </body>
 </html>
