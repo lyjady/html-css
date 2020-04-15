@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="学成在线完成, 定位">
-      <change afterPath="$PROJECT_DIR$/image/online/hot.png" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="定位, 学成在线hot图标定位实现出现在盒子的右上角">
+      <change afterPath="$PROJECT_DIR$/html/TbAndPotato.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/abcd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/arr(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tudou.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/online.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/online.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Online.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Online.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Position.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +64,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/online" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\html-css\image\online" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\image" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\js" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\image" />
       <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
       <recent name="C:\Users\User\WebstormProjects\html-css\html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\image" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\image\online" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\js" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -130,7 +133,8 @@
       <workItem from="1586163861685" duration="2849000" />
       <workItem from="1586262524671" duration="56000" />
       <workItem from="1586262813985" duration="3386000" />
-      <workItem from="1586523892464" duration="2562000" />
+      <workItem from="1586523892464" duration="2903000" />
+      <workItem from="1586954628640" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586266171128</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="定位, 学成在线hot图标定位实现出现在盒子的右上角">
+      <created>1586526786861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586526786861</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +274,8 @@
     <MESSAGE value="浮动" />
     <MESSAGE value="学成在线" />
     <MESSAGE value="学成在线完成, 定位" />
-    <option name="LAST_COMMIT_MESSAGE" value="学成在线完成, 定位" />
+    <MESSAGE value="定位, 学成在线hot图标定位实现出现在盒子的右上角" />
+    <option name="LAST_COMMIT_MESSAGE" value="定位, 学成在线hot图标定位实现出现在盒子的右上角" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586265293121">
@@ -302,17 +314,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586524999339" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586266172638">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586526788204">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586266172638" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586526788204" />
     <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585929562184" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1586264230277">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1586955143952">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586264230277" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586955143952" />
   </component>
 </project>
