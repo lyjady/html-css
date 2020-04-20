@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complex</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        /* 三角样式 */
+        .dialog-box {
+            position: relative;
+            margin: 10px 10px;
+            border-radius: 10px;
+            width: 120px;
+            height: 30px;
+            background-color: #9BCEEA;
+        }
+
+        .tail {
+            position: absolute;
+            width: 0;
+            height: 0;
+            right: -10px;
+            top: 10px;
+            border: 5px solid transparent;
+            border-left-color: #9BCEEA;
+            line-height: 0;
+            font-size: 0;
+        }
+
+        /* 表单输入框无轮廓 */
+        .input {
+            outline: none;
+        }
+
+        /* 文本域不能拖拽 */
+        .textarea {
+            outline: none;
+            resize: none;
+        }
+
+        .vertical {
+            margin-top: 10px;
+        }
+
+        .vertical img {
+            vertical-align: middle;
+        }
+
+        .one-line {
+            width: 120px;
+            /*  强制文本一行显示  */
+            white-space: nowrap;
+            /*  超出隐藏部分  */
+            overflow: hidden;
+            /*  文字用省略号代替  */
+            text-overflow: ellipsis;
+        }
+
+        /* margin负值显示边框 */
+        .margin {
+            height: 300px;
+            margin-left: 10px;
+        }
+
+        .margin ul li {
+            position: relative;
+            float: left;
+            width: 150px;
+            height: 200px;
+            margin-left: -1px;
+            background-color: #EEEEEE;
+        }
+
+        .margin ul li:hover {
+            z-index: 1;
+            border: 1px solid #00A4FF;
+        }
+
+        /*  文字环绕图片  */
+        .round {
+            margin-top: 20px;
+            width: 660px;
+        }
+
+        .page {
+            margin-top: 70px;
+            text-align: center;
+        }
+
+        .page a {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            border: 1px solid #EEEEEE;
+            background-color: #F7F7F7;
+            text-align: center;
+            line-height: 36px;
+            color: black;
+        }
+
+        .page .current,
+        .page .sllp {
+            background-color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS三角 -->
+    <div class="dialog-box">
+        <span class="tail"></span>
+    </div>
+    <!-- 表单输入框无轮廓和文本域不能拖拽 -->
+    <input class="input" type="text">
+    <textarea class="textarea"></textarea>
+    <!-- 行内块与文字居中对齐, 图片与文字垂直居中 -->
+    <div class="vertical">
+        <img src="../image/online/pic.png" alt="..."/>
+        vertical-align
+    </div>
+    <!-- 单行文字溢出用省略号 -->
+    <div class="one-line">
+        圣诞节爱我判断撒泼打排位担惊受怕的哈文刀片似乎待判定
+    </div>
+    <!-- margin负值显示边框 -->
+    <div class="margin clearfix">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- 文字环绕图片 -->
+    <div class="round">
+        <img style="float: left;margin-right: 10px" src="../image/online/pic.png" alt="...">
+        <p>低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完低价位排队数目方便你骗我扥法匹拉韦你发我Opi发我发完</p>
+    </div>
+    <!-- 行内块实现分页 -->
+    <div class="page">
+        <a href="#" style="width: 80px">&lt;&lt;上一页</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#" class="current">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#" class="sllp">...</a>
+        <a href="#">10</a>
+        <a href="#" style="width: 80px">&gt;&gt;下一页</a>
+    </div>
+</body>
+</html>
