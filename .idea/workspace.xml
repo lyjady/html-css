@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="淘宝定位实战, 土豆播放, 精灵图拼接名字">
-      <change afterPath="$PROJECT_DIR$/html/Complex.html" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="综合">
+      <change afterPath="$PROJECT_DIR$/html/CSS3选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/三角.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +133,9 @@
       <workItem from="1586262813985" duration="3386000" />
       <workItem from="1586523892464" duration="2903000" />
       <workItem from="1586954628640" duration="4175000" />
-      <workItem from="1587386468259" duration="3106000" />
+      <workItem from="1587386468259" duration="3159000" />
+      <workItem from="1587646221270" duration="18000" />
+      <workItem from="1587646252151" duration="3749000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -245,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586958796820</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="综合">
+      <created>1587389598559</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587389598559</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,13 +291,14 @@
     <MESSAGE value="学成在线完成, 定位" />
     <MESSAGE value="定位, 学成在线hot图标定位实现出现在盒子的右上角" />
     <MESSAGE value="淘宝定位实战, 土豆播放, 精灵图拼接名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="淘宝定位实战, 土豆播放, 精灵图拼接名字" />
+    <MESSAGE value="综合" />
+    <option name="LAST_COMMIT_MESSAGE" value="综合" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586265293121">
+    <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587647584960">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1586265293121" />
+    <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1587647584960" />
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586262548805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -319,10 +331,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586524999339" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1586958797885">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587389600029">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1586958797885" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587389600029" />
     <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

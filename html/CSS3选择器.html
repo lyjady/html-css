@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3选择器</title>
+    <style>
+        /*
+            属性选择器选取有指定属性的标签
+            写法: 标签[属性名]
+         */
+        span[class] {
+            color: #00A4FF;
+        }
+        /*
+            标签[属性名^=值], 选中指定属性值为这个前缀的标签
+         */
+        span[class^=sp1] {
+            color: #978fad;
+        }
+        /*
+            标签[属性名$=值], 选中指定属性值为这个后缀的标签
+            标签[属性名*=值], 选中指定属性值包含这个值的标签
+         */
+        span[class$=s1] {
+            color: #63a35c;
+        }
+
+        /*
+            first-child: 第一个孩子
+            last-child: 最后一个孩子
+            nth-child(n): 指定第n个孩子. n可以是指定的值可以是一个表达式(even: 双, odd: 单)
+            2n: even, 双数
+            2n + 1: odd, 单数
+            n + 5: 从第5个开始
+            -n + 5:
+         */
+        ul li:first-child {
+            background-color: #00A4FF;
+        }
+
+        ul li:last-child {
+            background-color: #00A4FF;
+        }
+
+        ul li:nth-child(even) {
+            background-color: #55a532;
+        }
+
+        .abc li:nth-child(odd) {
+            background-color: #9BCEEA;
+        }
+        /*
+            nth-of-type与nth-child类似, 同样有选取第一个的first-of-type和选取最后一个的last-of-type
+            nth-of-type的用法和nth-child一样。
+            他们两个的区别在于nth-child是先根据(first-child、last-child、nth-child)这些伪类选择器将指定元素的子元素选择好序号再和前面对比, 如果一样则应用样式不一样则不引用
+            nth-of-type是先根据冒号前面的元素, 根据冒号前面的元素将父元素中和冒号前面一样的元素的子元素排好序号, 再根据序号选择.
+            如果一个标签的子元素都一样那么这两个选择器没有区别, 但是如果一个div里面有很多不一样类型的子元素.
+            <div>
+                <p></p>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            div span:first-child {...} 此时样式不会生效因为, 他会先将<div>里面的子元素排好序号.选取div的第一个子孩子<p></p>, 在和div span比较不一样则不生效样式
+            div span:first-of-type{...} 此时样式就会生效, 会将div里面全部的span子元素拍好序号在选择第一个, 生效样式。(其他类型的伪类选择器一样)
+         */
+    </style>
+</head>
+<body>
+    <!-- 属性选择器 -->
+    <span class="sp2-s1">属性选择器</span>
+    <span class="sp1-s1">属性选择器</span>
+    <span class="sp1-s2">属性选择器</span>
+    <span>属性选择器</span>
+    <!-- nth-child和nth-of-type选择器 -->
+    <ul class="abc">
+        <li>第1个孩子</li>
+        <li>第2个孩子</li>
+        <li>第3个孩子</li>
+        <li>第4个孩子</li>
+        <li>第5个孩子</li>
+        <li>第6个孩子</li>
+        <li>第7个孩子</li>
+    </ul>
+</body>
+</html>
