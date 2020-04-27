@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS3选择器</title>
+    <link rel="stylesheet" href="../css/font/iconfont.css">
     <style>
         /*
             属性选择器选取有指定属性的标签
@@ -64,6 +65,68 @@
             div span:first-child {...} 此时样式不会生效因为, 他会先将<div>里面的子元素排好序号.选取div的第一个子孩子<p></p>, 在和div span比较不一样则不生效样式
             div span:first-of-type{...} 此时样式就会生效, 会将div里面全部的span子元素拍好序号在选择第一个, 生效样式。(其他类型的伪类选择器一样)
          */
+        /*
+            伪元素选择器, 会给指定的标签的before和after内添加content里面的内容, 还可以写指定的样式
+            伪元素本质是一个行内元素, content就是标签的内容, 其他样式就直接写在伪元素的css样式里
+            因为在html渲染的时候伪元素不会被渲染出来, 不会出现Dom结构中所以被称之为伪元素
+         */
+        .wei::before {
+            content: 'before';
+            background-color: #63a35c;
+            width: 120px;
+        }
+
+        .wei::after {
+            content: 'after';
+            background-color: #00A4FF;
+        }
+        /*
+            伪元素图标
+         */
+        .wei-icon {
+            position: relative;
+            margin-top: 10px;
+            border: 1px solid #DDDDDD;
+            width: 150px;
+            height: 25px;
+        }
+
+        .wei-icon::after {
+            content: '\e783';
+            font-family: "iconfont",serif;
+            position: absolute;
+            top: 5px;
+            right: 8px;
+        }
+
+        .potato {
+            position: relative;
+            margin: 100px auto;
+            width: 400px;
+            height: 200px;
+        }
+        /*
+            伪元素土豆
+         */
+        .potato img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .potato::before {
+            content: '';
+            display: none;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: url("../image/arr(1).png") no-repeat center rgba(0, 0, 0, .3);
+        }
+
+        .potato:hover::before {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -82,5 +145,13 @@
         <li>第6个孩子</li>
         <li>第7个孩子</li>
     </ul>
+    <!-- 伪元素选择器 -->
+    <div class="wei">center</div>
+    <!-- 伪元素实现图标 -->
+    <div class="wei-icon"></div>
+    <!-- 伪元素土豆 -->
+    <div class="potato">
+        <img src="../image/tudou.jpg" alt="...">
+    </div>
 </body>
 </html>

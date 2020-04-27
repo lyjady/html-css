@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3部分新属性</title>
+    <style>
+        /*
+            在之前的css中如果指定了宽或高在指定padding或者border如果要保证宽高不变, 那就需要减去指定的长度
+            但是指定box-sizing: border-box这个样式, CSS就会自动减去长度不需要手动的去减, 默认值为content-box即需要手动减去没有变化
+         */
+        .pad1 {
+            padding: 5px;
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background-color: #63a35c;
+        }
+
+        .pad2 {
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background-color: #00A4FF;
+            box-sizing: border-box;
+        }
+
+        /*
+            图片模糊
+         */
+        .image {
+            filter: blur(5px);
+        }
+
+        /*
+            calc()函数计算父元素宽度
+         */
+        .fa {
+            height: 35px;
+            width: 180px;
+            background-color: #00A4FF;
+            transition: width .5s ease 0s;
+        }
+
+        .son {
+            height: 35px;
+            width: calc(100% - 20px);
+            background-color: #63a35c;
+        }
+
+        .fa:hover {
+            width: 250px;
+        }
+        /*
+            transition过渡属性
+            transition: 要过渡的属性 花费的时间 运动曲线 何时开始
+         */
+        .trans-1 {
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: #63a35c;
+            transition: all 0.5s ease 0s;
+        }
+
+        .trans-1:hover {
+            width: 200px;
+            height: 200px;
+            background-color: #00A4FF;
+            /*filter: blur(10px);*/
+        }
+
+        .trans-2 {
+            margin-top: 10px;
+            transition: all .5s ease 0s;
+        }
+
+        .trans-2:hover {
+            filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- box-sizing -->
+    <div class="pad1"></div>
+    <br>
+    <div class="pad2"></div>
+    <!-- 图片模糊 -->
+    <img class="image" src="../image/tb.jpg" alt="...">
+    <!-- 动态计算盒子宽度 -->
+    <div class="fa">
+        <div class="son"></div>
+    </div>
+    <!-- transition过渡属性 -->
+    <div class="trans-1"></div>
+    <img src="../image/tb.jpg" alt="..." class="trans-2">
+</body>
+</html>

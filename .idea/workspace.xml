@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="综合">
-      <change afterPath="$PROJECT_DIR$/html/CSS3选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/三角.html" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="CSS3选择器">
+      <change afterPath="$PROJECT_DIR$/html/CSS3部分新属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/CSS3选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/CSS3选择器.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,9 @@
       <workItem from="1586954628640" duration="4175000" />
       <workItem from="1587386468259" duration="3159000" />
       <workItem from="1587646221270" duration="18000" />
-      <workItem from="1587646252151" duration="3749000" />
+      <workItem from="1587646252151" duration="4207000" />
+      <workItem from="1587732735986" duration="22000" />
+      <workItem from="1587991901015" duration="3883000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -256,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587389598559</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CSS3选择器">
+      <created>1587650090092</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587650090092</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,8 @@
     <MESSAGE value="定位, 学成在线hot图标定位实现出现在盒子的右上角" />
     <MESSAGE value="淘宝定位实战, 土豆播放, 精灵图拼接名字" />
     <MESSAGE value="综合" />
-    <option name="LAST_COMMIT_MESSAGE" value="综合" />
+    <MESSAGE value="CSS3选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS3选择器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587647584960">
@@ -331,14 +340,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586524999339" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587389600029">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587732747164">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587389600029" />
-    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585929562184">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587732747164" />
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587650104631">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585929562184" />
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587650104631" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1587389373242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
