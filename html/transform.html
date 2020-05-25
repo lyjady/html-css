@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transform</title>
+  <style>
+
+    div {
+      margin: 0 auto;
+    }
+    .translate {
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+      /* translate可以让元素进行移动, 相比于其他的定位translate不会影响其他元素 */
+      /* transform: translate(30px, 30px); */
+      /* translate里面可以写百分比, 百分比不是根据父元素的宽高进行计算是根据自身的宽高进行计算, 这样在使用定位让盒子居中的时候直接translate(-50%, -50%)这样动态的移动, 不回因为盒子的宽高变了修改值 */
+      /* transform: translate(150%, 150%); */
+      /* translateX translateY 指定一个方向的移动距离 */
+      /* transform: translateX();
+      transform: translateY(); */
+      /* translate 对行内元素不起作用 */
+      transition: all 0.6s ease;
+      margin-bottom: 20px;
+    }
+
+    .translate:hover {
+      transform: translate(100px, 100px);
+    }
+
+    .rotate {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        /* 设置旋转的中心点, 用法与背景图片的位置一样 */
+        /* 如果写百分比则是按照旋物体的宽高进行百分比默认是50% 50%即按照物体的中心点进行旋转 */
+        transform-origin: left bottom;
+        transition: all 1s ease;
+        margin-bottom: 20px;
+    }
+
+    .rotate:hover {
+      /* rotate旋转 */
+      transform: rotate(360deg);
+    }
+
+    .scale {
+      width: 100px;
+      height: 100px;
+      background-color: bisque;
+      transition: all 1s ease;
+    }
+
+    .scale:hover {
+      /* 根据比例对盒子进行缩放, 同样可以设置中心点还是transform-origin这个样式, 缩放不会影响其他盒子, 如果只写一个那么就是对宽高根据写的值进行等比例的缩放 */
+      transform: scale(2, 2);
+    }
+  </style>
+</head>
+<body>
+  <div class="translate">translate</div>
+  <div class="rotate">rotate</div>
+  <div class="scale">scale</div>
+</body>
+</html>
