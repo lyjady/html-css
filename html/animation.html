@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>animation</title>
+  <style>
+    /* 定义动画, move是动画的名称 */
+    @keyframes move {
+      /* 开始时动画的样式可省略, 可以用from代替 */
+      0% {
+      
+      }
+
+      /* 25%时的时间序列的样式 */
+      25% {
+        transform: translateX(1000px);
+      }
+
+      50% {
+        transform: translate(1000px, 500px);
+      }
+
+      75% {
+        transform: translateY(500px);
+      }
+
+      /* 结束时动画的样式, 可以用to代替*/
+      100% {
+        transform: translateY(1000px);
+      }
+    }
+    div {
+      width: 100px;
+      height: 100PX;
+      background-color: skyblue;
+      /* 指定动画 */
+      animation-name: move;
+      /* 指定动画的持续时间 */
+      animation-duration: 3s;
+      /* 延迟播放 */
+      animation-delay: 1s;
+      /* 动画曲线 */
+      animation-timing-function: ease;
+      /* 指定动画执行的次数 infinite是无限次 */
+      /* animation-iteration-count: infinite; */
+      /* 规定动画是否在下一周期逆周期播放默认是normal, alternate是逆周期, 如果播放次数是1那么这个属性没有效果 */
+      animation-direction: alternate;
+      /* 规定动画在结束后保持结束的位置还是回到开始的位置(默认是回到开始的位置) forwards保持结束的位置 */
+      animation-fill-mode: forwards;
+    }
+
+    div:hover {
+      /* 规定动画是否暂停 */
+      animation-play-state: paused;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

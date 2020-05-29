@@ -56,11 +56,25 @@
       /* 根据比例对盒子进行缩放, 同样可以设置中心点还是transform-origin这个样式, 缩放不会影响其他盒子, 如果只写一个那么就是对宽高根据写的值进行等比例的缩放 */
       transform: scale(2, 2);
     }
+
+    .mix {
+      width: 100px;
+      height: 100px;
+      margin-top: 10px;
+      background-color: slateblue;
+      transition: all 10s ease;
+    }
+
+    .mix:hover {
+      /* transform的混合写法, 如果有位移属性要把位移的属性写在最前面, 因为执行transform是按照顺序去执行的, 先执行位移在执行其他的属性, 如果把旋转放在前面那么角度会发生变化影响其他后面的属性(根据实际情况来进行安排顺序) */
+      transform: translate(50%, 50%) rotate(90deg) scale(1.1);
+    }
   </style>
 </head>
 <body>
   <div class="translate">translate</div>
   <div class="rotate">rotate</div>
   <div class="scale">scale</div>
+  <div class="mix">mix</div>
 </body>
 </html>
