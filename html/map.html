@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>map</title>
+  <style>
+    .map {
+      position: relative;
+      width: 1000px;
+      height: 1000px;
+      margin: 0 auto;
+      background-image: url("../image/map.jpg");
+    }
+
+    .container {
+      position: absolute;
+      top: 293px;
+      right: 360px;
+    }
+
+    .dotted {
+      width: 10px;
+      height: 10px;
+      background-color: #00A4FF;
+      border-radius: 50%;
+    }
+
+    div [class^="blur"] {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      width: 10px;
+      height: 10px;
+      box-shadow: 0 0 12px #00A4FF;
+      border-radius: 50%;
+      animation: radiation 1.2s linear infinite;
+    }
+
+    .map .container .blur2 {
+      animation-delay: .4s;
+    }
+
+    .map .container .blur3 {
+      animation-delay: .8s;
+    }
+
+    @keyframes radiation {
+      50% {
+        width: 40px;
+        height: 40px;
+        opacity: 1;
+      }
+
+      to {
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="map">
+    <div class="container">
+      <div class="dotted"></div>
+      <div class="blur1"></div>
+      <div class="blur2"></div>
+      <div class="blur3"></div>
+    </div>
+  </div>
+</body>
+</html>

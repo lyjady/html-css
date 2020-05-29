@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="CSS3选择器">
-      <change afterPath="$PROJECT_DIR$/html/CSS3部分新属性.html" afterDir="false" />
+    <list default="true" id="5aeda905-9a7b-454e-9f1a-aa19822a4d68" name="Default Changelist" comment="更新代码">
+      <change afterPath="$PROJECT_DIR$/html/animation-step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/map.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/CSS3选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/CSS3选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/animation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +71,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\html-css\image" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
-      <recent name="C:\Users\User\WebstormProjects\html-css\html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\html-css\image" />
       <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
       <recent name="C:\Users\User\WebstormProjects\html-css\image\online" />
       <recent name="C:\Users\User\WebstormProjects\html-css\js" />
       <recent name="C:\Users\User\WebstormProjects\html-css\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\html-css\image" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\image\background" />
+      <recent name="C:\Users\User\WebstormProjects\html-css\html" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,6 +140,9 @@
       <workItem from="1587646252151" duration="4207000" />
       <workItem from="1587732735986" duration="22000" />
       <workItem from="1587991901015" duration="3883000" />
+      <workItem from="1587996252862" duration="23000" />
+      <workItem from="1590761369098" duration="112000" />
+      <workItem from="1590761497300" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="js小案列">
       <created>1583329037493</created>
@@ -264,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587650090092</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="更新代码">
+      <created>1587996263770</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587996263770</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +301,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="js小案列" />
     <MESSAGE value="小测试" />
-    <MESSAGE value="更新代码" />
     <MESSAGE value="背景样式" />
     <MESSAGE value="新浪导航栏" />
     <MESSAGE value="box模型小案例" />
@@ -301,7 +313,8 @@
     <MESSAGE value="淘宝定位实战, 土豆播放, 精灵图拼接名字" />
     <MESSAGE value="综合" />
     <MESSAGE value="CSS3选择器" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS3选择器" />
+    <MESSAGE value="更新代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587647584960">
@@ -312,6 +325,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586262548805" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590763227140">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590763227140" />
     <state x="878" y="204" key="CommitChangelistDialog2" timestamp="1586266159818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -340,14 +357,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1586524999339" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587732747164">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587996265076">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587732747164" />
-    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587650104631">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587996265076" />
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590761374782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587650104631" />
+    <state x="1071" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1590761374782" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1587389373242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

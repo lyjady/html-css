@@ -9,7 +9,7 @@
     @keyframes move {
       /* 开始时动画的样式可省略, 可以用from代替 */
       0% {
-      
+
       }
 
       /* 25%时的时间序列的样式 */
@@ -48,6 +48,7 @@
       animation-direction: alternate;
       /* 规定动画在结束后保持结束的位置还是回到开始的位置(默认是回到开始的位置) forwards保持结束的位置 */
       animation-fill-mode: forwards;
+      /* 可以使用简写属性来定义动画animation: name duration ... 后面的顺序随意, 但是delay一定要写在duration的后面. 没有写的就是使用默认值 */
     }
 
     div:hover {

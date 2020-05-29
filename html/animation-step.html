@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>step</title>
+  <style>
+    body {
+      background-color: #333333;
+    }
+    .bear {
+      position: relative;
+      width: 200px;
+      height: 100px;
+      background: url("../image/bear.png") no-repeat;
+      /* steps(步数)步长, 将动画分布执行 */
+      /* 多个动画的话直接用 逗号 隔开, 写法与其他一样 */
+      animation: run .5s steps(8) infinite, move 1s linear forwards;
+    }
+
+    @keyframes run {
+      from {
+        background-position: 0;
+      }
+      to {
+        background-position: -1600px;
+      }
+    }
+
+    @keyframes move {
+      from {
+        left: 0;
+      }
+
+      to {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bear"></div>
+</body>
+</html>
