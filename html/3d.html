@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3d</title>
+  <style>
+    body {
+      /* 只有给3d变化的元素加了透视属性才能看到3d效果 */
+      perspective: 500px;
+      /* 给子元素开启3d空间 */
+      transform-style: preserve-3d;
+    }
+    div {
+      width: 200px;
+      height: 200px;
+      margin: 100px auto;
+    }
+    .box1 div {
+      /*transform: translateX(30px) translateY(30px) translateZ(40px);*/
+      /* 上面可简写成 */
+      transform: translate3d(30px, 30px, 40px);
+      background-color: #00A4FF;
+    }
+
+    .box2 div {
+      transition: all 1s linear;
+      background-color: #9BCEEA;
+    }
+
+    .box2 div:hover {
+      /* 3d旋转 */
+      transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+    }
+
+    .box3 div:first-child {
+      position: absolute;
+      transform: rotateX(90deg);
+      background-color: #333333;
+    }
+
+    .box3 div:last-child {
+      position: absolute;
+      background-color: skyblue;
+    }
+
+    .box3 {
+      position: relative;
+      transition: all 1s;
+    }
+
+    .box3:hover {
+      transform: rotateY(-90deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box1">
+    <div></div>
+  </div>
+  <div class="box2">
+    <div></div>
+  </div>
+  <div class="box3">
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>

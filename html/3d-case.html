@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3d-case</title>
+  <style>
+    body {
+      perspective: 300px;
+    }
+
+    li {
+      height: 50px;
+      width: 150px;
+      position: relative;
+      list-style: none;
+      transform-style: preserve-3d;
+      transition: all .4s;
+    }
+
+    li:hover {
+      transform: rotateX(94deg);
+    }
+
+    div {
+      width: 200px;
+      height: 200px;
+    }
+
+    div[class^="case"] {
+      margin: 100px auto;
+    }
+
+    .case1 {
+      position: relative;
+      transform-style: preserve-3d;
+      transition: all .3s linear;
+    }
+
+    .case1:hover {
+      transform: rotateY(180deg);
+    }
+
+    .case1 div {
+      position: absolute;
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      line-height: 200px;
+    }
+
+    .case1 div:first-child {
+      background-color: skyblue;
+      z-index: 1;
+    }
+
+    .case1 div:last-child {
+      transform: rotateY(180deg);
+      background-color: darkcyan;
+    }
+
+    .case2 li div {
+      position: absolute;
+      height: 50px;
+      width: 150px;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+    }
+
+    .case2 li div:first-child {
+      z-index: 1;
+      background-color: #63a35c;
+      transform: translateZ(25px);
+    }
+
+    .case2 li div:last-child {
+      background-color: #9BCEEA;
+      transform: translateY(25px) rotateX(-90deg);
+    }
+
+    .case3 {
+      position: relative;
+      width: 200px;
+      transform-style: preserve-3d;
+      animation: rotate 1s linear infinite alternate;
+    }
+
+    .case3:hover {
+      animation-play-state: paused;
+    }
+
+    .case3 div {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: url("../image/logo.png") no-repeat;
+    }
+
+    .case3 div:nth-child(1) {
+      transform: translateZ(200px);
+    }
+
+    .case3 div:nth-child(2) {
+      transform: rotateY(60deg) translateZ(200px);
+    }
+
+    .case3 div:nth-child(3) {
+      transform: rotateY(120deg) translateZ(200px);
+    }
+
+    .case3 div:nth-child(4) {
+      transform: rotateY(180deg) translateZ(200px);
+    }
+
+    .case3 div:nth-child(5) {
+      transform: rotateY(240deg) translateZ(200px);
+    }
+
+    .case3 div:nth-child(6) {
+      transform: rotateY(300deg) translateZ(200px);
+    }
+    @keyframes rotate {
+      from {
+      }
+
+      to {
+        transform: rotateY(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="case1">
+    <div>我是你爸爸</div>
+    <div>快点叫爸爸</div>
+  </div>
+  <div class="case2">
+    <ul>
+      <li>
+        <div>我是你爸爸</div>
+        <div>快点叫爸爸</div>
+      </li>
+    </ul>
+  </div>
+  <div class="case3">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
